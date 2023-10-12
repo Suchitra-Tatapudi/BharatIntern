@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Netflix</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+       
+        *{
+            font-family: sans-serif;
+            margin:0%;
+            padding: 0%;
+        }
+        #bg-col{
+           background-color: black!important;
+        }
+        .nav-icon{
+            width:100px;
+            height:50px;
+        }
+        #nav-item1{
+            color:white;
+            font-weight:800;
+        }
+        #nav-item2,#nav-item3,#nav-item4,#nav-item5{
+            color:white;
+            font-weight:300;
+        }
+        .home-page{
+            background-image: url("https://images.alphacoders.com/939/thumb-1920-939710.jpg");
+            background-size: cover;
+            height:87vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .title{
+           font-size:50px;
+           color:red;
+           font-weight: bold;
+        }
+        .details{
+            color:white;
+        }
+        .story-line{
+            color:white;
+        }
+        .btn1{
+            background-color: white;
+            color:black;
+        }
+        .btn2{
+            background-color: gray;
+            color:white;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="bg-col">
+        <a class="navbar-brand" href="#"><img src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" class="nav-icon"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#" id="nav-item1">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#" id="nav-item2">TV shows</a>
+            <a class="nav-link" href="#" id="nav-item3">Movies</a>
+            <a class="nav-link" href="#" id="nav-item4">Recently Added</a>
+            <a class="nav-link" href="#" id="nav-item5">My List</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" fill="white" class="bi bi-search mt-2" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" fill="white" class="bi bi-bell-fill mt-2 ml-1" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" fill="red" class="bi bi-person-square mt-2 ml-1" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+              </svg>
+          </div>
+        </div>
+      </nav>
+<div class="home-page">
+        <div class="col-8 ml-5">
+           <h1 class="title">Train to Busan</h1>
+           <p class="details">2016 | <b>Director: </b>Yeon Sang-ho | <b>Genre: </b>Horror/Action</p>
+           <p class="story-line">Seok-woo and his daughter are on a train to Busan on the latter's birthday<br> to see his wife. However, the journey turns into a nightmare when they are trapped amidst<br> a zombie outbreak in South Korea.</p>
+           <button class="btn btn1 mr-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-play-fill mr-2 mb-1" viewBox="0 0 16 14">
+           <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+           </svg>Play Now</button>
+           <button class="btn btn2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg mr-2 mb-1" viewBox="0 0 16 14">
+           <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+           </svg>My List</button>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
